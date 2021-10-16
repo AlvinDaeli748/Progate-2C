@@ -13,12 +13,27 @@ a {
     margin: 0 auto;
 }
 
+@keyframes main{
+    0% {background-image: url(images/main.png);}
+    35% {
+        background-image: url(images/sub.jpg); 
+        color: white;
+    }
+    65% {background-image: url(images/last.jpeg);}
+    100% {background-image: url(images/main.png);}
+
+}
+
 .main-wrapper {
     padding: 180px 0 100px 0;
     background-image: url(images/main.png);
     background-size: cover;
+    background-color: none;
     color: #333333;
     text-align: left;
+    animation-name: main;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
 }
 
 .main-wrapper h1 {
@@ -158,7 +173,20 @@ header {
     box-shadow: none;
 }
 
-span{
+@keyframes discount {
+    0% {color:#5f5d60;}
+    50% {color:#D9B7A1;}
+    100% {color:#5f5d60;}
+}
+
+.disc{
+    color:black;
+    animation-name: discount;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+
+.message-wrapper span{
     float: right;
 }
 
