@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(images/main.png);
+    background-size: cover;
+    color: #333333;
+    text-align: left;
+}
+
+.main-wrapper h1 {
+    opacity: 0.7;
+    font-size: 96px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.main-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    font-family: "Arial";
+    font-size: 18px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.shop {
+    background-color: #D9B7A1;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 4;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #D9B7A1;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    height: 65px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.cloth-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+    width: 1170px;
+}
+
+.heading h2 {
+    font-weight: normal;
+    font-size: 60px;
+    text-align: right;
+}
+
+.cloth {
+    float: left;
+    width: 25%;
+}
+
+.cloth-icon {
+    position: relative;
+}
+
+.cloth-icon img {
+    position: relative;
+    width: 85%;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message-wrapper {
+    padding-bottom: 85px;
+    text-align: center;
+    background-image: url(images/sale.png);
+    background-size: cover;
+}
+
+.sale {
+    padding: 15px 40px;
+    background-color: #D9B7A1;
+    cursor: pointer;
+}
+
+.sale:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+span{
+    float: right;
+}
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+}
