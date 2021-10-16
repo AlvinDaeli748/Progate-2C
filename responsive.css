@@ -1,0 +1,37 @@
+@media (max-width: 1000px){
+    .main-wrapper h1{
+        font-size: 32px;
+    }
+    .heading h2{
+        font-size: 20px;
+    }
+    .cloth{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 670px){
+    .main-wrapper h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .main-wrapper p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .heading h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .cloth{
+        width: 100%;
+    }
+      
+    footer{
+        text-align: center;
+    }
+}
